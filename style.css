@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 1rem;
+}
+
+#settings {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#settings label {
+    font-size: 0.9rem;
+}
+
+#settings input {
+    width: 4rem;
+    padding: 0.2rem;
+}
+
+#settings button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #999;
+    background: #f9f9f9;
+}
+
+#toolbar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+
+#toolbar button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #999;
+    background: #f9f9f9;
+}
+
+#toolbar button.active {
+    background-color: #ddd;
+}
+
+#toolbar button:disabled {
+    opacity: 0.5;
+}
+
+#dirLabel {
+    display: none;
+    font-size: 0.9rem;
+}
+
+#actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+#actions button {
+    padding: 0.5rem 1rem;
+    border: 1px solid #999;
+    background: #f9f9f9;
+}
+
+#actions button:disabled {
+    opacity: 0.5;
+}
+
+#editorCanvas {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #fff;
+}

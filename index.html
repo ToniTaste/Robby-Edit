@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Robby-Labyrinth-Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Labyrinth-Editor</h1>
+
+  <!-- Eingabe Rastergröße -->
+  <div id="settings">
+    <label>Spaltenzahl: <input type="number" id="widthInput" min="3" max="15" value="5"></label>
+    <label>Zeilenzahl: <input type="number" id="heightInput" min="3" max="15" value="5"></label>
+    <button id="createGridBtn">Raster erstellen</button>
+  </div>
+
+  <!-- Canvas -->
+  <canvas id="editorCanvas" width="400" height="400"></canvas>
+
+  <!-- Modus-Wahl -->
+  <div id="toolbar">
+    <button id="modeStone" disabled class="active">Steine</button>
+	<button id="modeTree" disabled>Bäume</button>
+	<button id="modeWater" disabled >Gewässer</button>
+	<button id="modeHole" disabled >Löcher</button>
+    <button id="modeGoal" disabled>Ziel</button>
+    <button id="modeStart" disabled>Startpunkt</button>
+    <!-- Direction Selector (nur bei Start) -->
+    <label id="dirLabel">Robbys Blickrichtung:
+      <select id="dirSelect">
+        <option value="0">Norden</option>
+        <option value="1">Osten</option>
+        <option value="2" selected>Süden</option>
+        <option value="3">Westen</option>
+      </select>
+    </label>
+  </div>
+
+  <!-- Aktionen -->
+  <div id="actions">
+    <button id="importBtn">Labyrinth laden</button>
+    <button id="exportJsonBtn" disabled>Labyrinth speichern</button>
+    <button id="resetBtn">Zurücksetzen</button>
+    <input type="file" id="importInput" accept=".json" style="display:none;">
+    <button id="reloadBtn">Neu laden</button>
+  </div>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
