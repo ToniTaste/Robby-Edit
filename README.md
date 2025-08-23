@@ -9,7 +9,7 @@ Der Editor für Robby. Hier kannst Du eigene Labyrinthe für [Robby](https://git
 
 ## 🖼️ Screenshot
 
-![Screenshot der Benutzeroberfläche](img/Laby-Ed.png)
+![Screenshot der Benutzeroberfläche](img/Robby-Edit.png)
 
 ## 🚀 Online ausprobieren
 
