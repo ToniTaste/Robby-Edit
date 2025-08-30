@@ -15,7 +15,7 @@ Der Editor für Robby. Hier kannst Du eigene Labyrinthe für [Robby](https://git
 
 > Wird unterstützt durch **GitHub Pages**.
 
-👉 [Hier klicken, um das Projekt direkt im Browser zu starten](https://tonitaste.github.io/Laby-Edit/)
+👉 [Hier klicken, um das Projekt direkt im Browser zu starten](https://tonitaste.github.io/Robby-Edit/)
 
 ## 📦 Installation (lokal)
 
